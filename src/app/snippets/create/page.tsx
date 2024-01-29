@@ -1,4 +1,16 @@
+import { db } from "@/db";
+
 export default function SnippetsCreatePage() {
+  async function createSnippet() {
+    // This needs to be a server action
+
+    // Check the user's input and make sure they are valid
+
+    // Create a new record in the database
+
+    // Redirect to the home page
+  }
+
   return <form>
     <h3 className="">Create a Snippet</h3>
     <div className="flex flex-col gap-4">
